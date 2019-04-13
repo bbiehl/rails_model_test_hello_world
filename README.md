@@ -31,3 +31,44 @@ Running via Spring preloader in process 72571
       create  spec/spec_helper.rb
       create  spec/rails_helper.rb
 ```
+## Create the User Model
+>With attributes first and last name.
+```
+$ rails g scaffold model first_name:string last_name:string
+$ rails db:migrate
+== 20190413161138 CreateModels: migrating =====================================
+-- create_table(:models)
+   -> 0.0011s
+== 20190413161138 CreateModels: migrated (0.0013s) ============================
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
